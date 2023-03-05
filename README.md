@@ -2,5 +2,5 @@
 
 ## Run
 ```bash
-npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch
+npx tailwindcss -i ./style.css -o ./dist/output.css --watch
 ```

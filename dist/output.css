@@ -419,6 +419,12 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: "Yekan";
+
+  src: url("./Yekan.ttf");
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -539,6 +545,14 @@ video {
   padding-top: 0.5rem;
 }
 
+.font-yekan {
+  font-family: Yekan, sans-serif;
+}
+
+.\!font-yekan {
+  font-family: Yekan, sans-serif !important;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -563,13 +577,18 @@ video {
   color: rgb(50 168 82 / var(--tw-text-opacity));
 }
 
+.text-test2-190 {
+  color: #32a8529e;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-test2-190 {
-  color: #32a8529e;
+.text-\[\#9b51e0\] {
+  --tw-text-opacity: 1;
+  color: rgb(155 81 224 / var(--tw-text-opacity));
 }
 
 .underline {

@@ -3,6 +3,9 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        yekan: ["Yekan", "sans-serif"]
+      },
       colors: {
         "test": "#32a852",
         "test2": {
